@@ -1,0 +1,11 @@
+{
+    "ticks_per_rev": {
+        "left": 0,
+        "right": 465
+    },
+    "wheel_radius": {
+        "left": 0.0,
+        "right": 0.09069491242369035
+    },
+    "wheel_base": NaN
+}

@@ -1,0 +1,3 @@
+<launch>
+    <node pkg="mpu_gy85" type="mpu_gy85_node" name="mpu_gy85_node" output="screen"/>
+</launch>
