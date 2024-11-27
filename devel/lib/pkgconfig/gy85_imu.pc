@@ -1,0 +1,8 @@
+prefix=/home/caftra/caftra_ws/devel
+
+Name: gy85_imu
+Description: Description of gy85_imu
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

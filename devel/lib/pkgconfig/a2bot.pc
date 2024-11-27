@@ -1,0 +1,8 @@
+prefix=/home/caftra/caftra_ws/devel
+
+Name: a2bot
+Description: Description of a2bot
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

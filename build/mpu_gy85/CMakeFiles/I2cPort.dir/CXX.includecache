@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/caftra/caftra_ws/src/mpu_gy85/include/I2cPort.h
+math.h
+-
+stdlib.h
+-
+stdio.h
+-
+stdint.h
+-
+linux/i2c-dev.h
+-
+sys/ioctl.h
+-
+fcntl.h
+-
+unistd.h
+-
+
+/home/caftra/caftra_ws/src/mpu_gy85/src/I2cPort.cpp
+I2cPort.h
+/home/caftra/caftra_ws/src/mpu_gy85/src/I2cPort.h
+

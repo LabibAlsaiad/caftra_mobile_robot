@@ -1,0 +1,8 @@
+prefix=/home/caftra/caftra_ws/install
+
+Name: mpu_gy85
+Description: Description of mpu_gy85
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 

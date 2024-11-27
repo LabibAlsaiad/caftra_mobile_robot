@@ -1,4 +1,5 @@
 <launch>
     <include file="$(find a2bot)/launch/a2bot_motor_control.launch"/>
     <include file="$(find a2bot)/launch/a2bot_teleop_keyboard.launch"/>
+    <include file="$(find a2bot)/launch/a2bot_odom_publisher.launch"/>
 </launch>

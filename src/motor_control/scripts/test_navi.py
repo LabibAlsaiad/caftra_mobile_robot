@@ -6,13 +6,13 @@ import time
 # GPIO Pin Definitions
 MOTOR_A_PWM1 = 13   # Motor A PWM pin
 MOTOR_A_PWM2 = 19   # Motor A direction pin
-ENCODER_A_A = 27   # Encoder A Channel A
-ENCODER_A_B = 22   # Encoder A Channel B
+ENCODER_A_A = 23   # Encoder A Channel A
+ENCODER_A_B = 24   # Encoder A Channel B
 
 MOTOR_B_PWM1 = 12   # Motor B PWM pin
 MOTOR_B_PWM2 = 18   # Motor B direction pin
-ENCODER_B_A = 23   # Encoder B Channel A
-ENCODER_B_B = 24   # Encoder B Channel B
+ENCODER_B_A = 22   # Encoder B Channel A
+ENCODER_B_B = 27   # Encoder B Channel B
 
 # Global variables for encoder counts
 encoder_af_count = 0
@@ -27,9 +27,9 @@ def encoder_a_callback(channel):
     state_a = GPIO.input(ENCODER_A_A)
     state_b = GPIO.input(ENCODER_A_B)
     if state_a == state_b:
-        encoder_af_count += 1  # Forward
-    else:
         encoder_ab_count -= 1  # Reverse
+    else:
+        encoder_af_count += 1  # Forward 
 
 def encoder_b_callback(channel):
     """Callback for Encoder B."""

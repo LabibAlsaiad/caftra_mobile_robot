@@ -1,0 +1,8 @@
+prefix=/home/caftra/caftra_ws/devel
+
+Name: imu_processors
+Description: Description of imu_processors
+Version: 0.3.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: roscpp sensor_msgs geometry_msgs nav_msgs tf

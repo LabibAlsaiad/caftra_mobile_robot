@@ -15,10 +15,10 @@ class EncoderCalibration:
         self.WHEEL_BASE = 0.210        # 210mm
         
         # GPIO Setup
-        self.ENCODER_LEFT_A = 27
-        self.ENCODER_LEFT_B = 22
-        self.ENCODER_RIGHT_A = 23
-        self.ENCODER_RIGHT_B = 24
+        self.ENCODER_LEFT_A = 23
+        self.ENCODER_LEFT_B = 24
+        self.ENCODER_RIGHT_A = 22
+        self.ENCODER_RIGHT_B = 27
         
         # Initialize counts and calibration data
         self.left_ticks = 0

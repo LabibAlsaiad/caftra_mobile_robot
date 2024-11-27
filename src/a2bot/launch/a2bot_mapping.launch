@@ -4,4 +4,5 @@
     <include file="$(find a2bot)/launch/a2bot_odom_publisher.launch"/>
     <!-- <include file="$(find a2bot)/launch/a2bot_imu_publisher.launch"/> -->
     <include file="$(find a2bot)/launch/a2bot_lidar_scan.launch"/>
+    <!-- <include file="$(find hector_mapping)/launch/mapping_default.launch"/> -->
 </launch>
