@@ -104,7 +104,7 @@ class DifferentialDriveOdom:
         transform = TransformStamped()
         transform.header.stamp = current_time
         transform.header.frame_id = "odom"
-        transform.child_frame_id = "base_footprint"
+        transform.child_frame_id = "base_link"
         transform.transform.translation.x = self.x
         transform.transform.translation.y = self.y
         transform.transform.translation.z = 0.0
@@ -129,7 +129,7 @@ class DifferentialDriveOdom:
         odom = Odometry()
         odom.header.stamp = current_time
         odom.header.frame_id = "odom"
-        odom.child_frame_id = "base_footprint"
+        odom.child_frame_id = "base_link"
         
         odom.pose.pose.position.x = self.x
         odom.pose.pose.position.y = self.y

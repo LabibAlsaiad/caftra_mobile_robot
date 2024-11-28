@@ -1,8 +1,9 @@
 <launch>
     <include file="$(find a2bot)/launch/a2bot_motor_control.launch"/>
     <include file="$(find a2bot)/launch/a2bot_teleop_keyboard.launch"/>
-    <include file="$(find a2bot)/launch/a2bot_odom_publisher.launch"/>
+    <!-- <include file="$(find a2bot)/launch/a2bot_odom_publisher.launch"/> -->
     <!-- <include file="$(find a2bot)/launch/a2bot_imu_publisher.launch"/> -->
     <include file="$(find a2bot)/launch/a2bot_lidar_scan.launch"/>
-    <!-- <include file="$(find hector_mapping)/launch/mapping_default.launch"/> -->
+    <!-- <include file="$(find rosbridge_server)/launch/rosbridge_websocket.launch"/> -->
+    <!-- <include file="$(find hector_slam_launch)/launch/tutorial.launch"/> -->
 </launch>

@@ -7,7 +7,6 @@
   <param name="angle_compensate"    type="bool"   value="true"/>
   </node>
   <!-- <node pkg="tf" type="static_transform_publisher" name="link1_broadcaster" args="0 0 0.1 0 0 0 1 odom laser_link 100" /> -->
-  <!-- <node pkg="tf" type="static_transform_publisher" name="link2_broadcaster" args="0 0 0.2 0 0 0 1 odom base_link 100" /> -->
 </launch>
 
 
